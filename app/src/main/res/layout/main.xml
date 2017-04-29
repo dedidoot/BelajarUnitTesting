@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:text="Sample 1"
+            android:textSize="28dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="rekam" />
+
+        <ImageButton
+
+            android:id="@+id/sample1record"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="stop" />
+
+        <ImageButton
+            android:id="@+id/sample1stop"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="play" />
+
+        <ImageButton
+            android:id="@+id/sample1play"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:text="Sample 2"
+            android:textSize="28dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="rekam" />
+
+        <ImageButton
+            android:id="@+id/sample2record"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="stop" />
+
+        <ImageButton
+            android:id="@+id/sample2stop"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="play" />
+
+        <ImageButton
+            android:id="@+id/sample2play"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:text="Voice Match"
+            android:textSize="28dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="start" />
+
+        <ImageButton
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="exit" />
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ready"
+            android:textSize="25dip"/>
+
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/SurfaceView01"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" />
+
+    <SurfaceView
+        android:id="@+id/SurfaceView02"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp" />
+</LinearLayout>
